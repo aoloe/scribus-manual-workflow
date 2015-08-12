@@ -1,2 +1,3 @@
-# scribus-manual-workflow
-Workflows with Scribus
+# Workflows with Scribus
+
+CC-BY-SA

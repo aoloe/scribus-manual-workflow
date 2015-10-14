@@ -13,3 +13,7 @@ libreoffice ist da um text zu schreiben, und ein wenig grund vormatierung passt 
 aber das layout erfolgt dann in scribus.
 
 # Preparing images for Scribus
+
+# Templates
+
+If you downloaded a template from a place like scribusstuff (or otherwise got a template) open it as a normal `.sla` and `file > save as a template`.

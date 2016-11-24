@@ -17,3 +17,27 @@ aber das layout erfolgt dann in scribus.
 # Templates
 
 If you downloaded a template from a place like scribusstuff (or otherwise got a template) open it as a normal `.sla` and `file > save as a template`.
+
+# Files location hygiene
+
+ne déplace ni renomme les dossier contenant des fichiers scribus ou leur ressources.
+
+et quand tu fais une copie de sauvegarde, ne copie pas le dossier où se trouvent les fichiers, mais utilise "collect for output".
+
+un dossier/fichier créé avec "collect for output" peut être déplacé, tant que tu ne l'as pas édité.
+
+en général, il y a "deux façon de travailler":
+
+- tu mets tout ce qui est actuel en premier plan et tu le déplace dans un archive lorsque c'est du passé ou
+- tu places dès le début le fichier actuel au bon endroit et tu travaille toujours sur la version actuelle (les copies ne sont que pour l'archivage).
+
+je voies beaucoup de monde autour de moi qui utilise le premier workflow. et je l'utilise aussi pour des projets qui ont une très courte durée (maximum 10 minutes... ensuite effacé).
+
+dans mon cas, tout le reste est placé dès le début au bon endroit. pas seulement avec scribus.
+
+le premier workflow permet probablement de mieux se concentrer sur ce qui est important, mais je remarques que ça pose souvent de gros problèmes:
+
+- quelle est la version définitive / actuelle de mon document?
+- où est mon fichier?
+
+en tout cas, avec scribus il n'y a pas de choix: c'est le deuxième ou des gros maux de tête...

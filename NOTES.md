@@ -1,4 +1,6 @@
-# Preparing text for Scribus
+# Workflows für Scribus
+
+## Preparing text for Scribus
 
 die idee dein text in odt zu schreiben ist gut.
 
@@ -12,13 +14,13 @@ also, doch, vielleicht gab es doch ein gedankenfehler: es lohnt sich nicht zu vi
 libreoffice ist da um text zu schreiben, und ein wenig grund vormatierung passt auch rein.
 aber das layout erfolgt dann in scribus.
 
-# Preparing images for Scribus
+## Preparing images for Scribus
 
-# Templates
+## Templates
 
 If you downloaded a template from a place like scribusstuff (or otherwise got a template) open it as a normal `.sla` and `file > save as a template`.
 
-# Files location hygiene
+## Files location hygiene
 
 ne déplace ni renomme les dossier contenant des fichiers scribus ou leur ressources.
 
@@ -41,3 +43,37 @@ le premier workflow permet probablement de mieux se concentrer sur ce qui est im
 - où est mon fichier?
 
 en tout cas, avec scribus il n'y a pas de choix: c'est le deuxième ou des gros maux de tête...
+
+## Colaborating on a Scribus document
+
+As with most type of files, Scribus files can only be edited by one person at a time.
+
+Depending on your needs there are two ways of collaborating on a Scribus project.
+
+### Working on the same document one person at a time
+
+It's of course possible to have several people working on the same computer, one after the other.
+
+ 
+
+### Spreading
+
+
+laser hat dir bereits eine gute anleitung gegeben. sie wird dein problem lösen, wenn ihr nicht gleichzeitig arbeiten musst / wollt.
+
+anderseits, falls
+
+- jeder eine seite allein gestaltet,
+- "unabhängig" von einander arbeiten möchtet
+
+dann empfehle ich euch:
+
+- ein einseitiges "musterdokument" zu erstellen (gemeindebriefe-17-01-00.sla), es für die ausgabe sammeln und allen zu verfügung stellen
+- irgendwie eine liste verwalten, wo jeder trägt ein, welche seite er/sie übernimmt / übernehmen soll.
+- jeder nimmt eine kopie vom musterdokument pro seite, benennt es um (z.b. gemeindebriefe-17-01-01.sla für die erste seite der januar ausgabe...), arbeitet drauf (ohne die formatvorlagen und musterseiten anzupassen!)...
+- ... und wenn er/sie fertig ist, sammelt das resultat für die ausgabe und ladet es in eine gemeinsame ablage hoch.
+- noch besser, jeder nimmt eine doppelseite... oder?
+- am ende, ein.e koordinator-I-n fügt die seiten zusammen (seite > importieren)
+- bitte vor dem gebrauch durchtesten : - )
+
+es ist auch möglich ein pdf pro seite/dokument zu generieren und dann die PDFs zusammen zu fügen.

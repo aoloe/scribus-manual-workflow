@@ -46,18 +46,43 @@ en tout cas, avec scribus il n'y a pas de choix: c'est le deuxième ou des gros 
 
 ## Colaborating on a Scribus document
 
+### "Collaborative editing"
+
+Using the same Scribus document on multiple computers at the same time is not possible.
+
 As with most type of files, Scribus files can only be edited by one person at a time.
 
-Depending on your needs there are two ways of collaborating on a Scribus project.
+### Sharing a document
 
-### Working on the same document one person at a time
+The basic rule is: you cannot use the same Scribus document (from a shared disk or a usb key) on multiple computers.  
+You have to collect the document for outpupt ("File > Collect for output") and you can then move the resulting directory to a different computer.
 
-It's of course possible to have several people working on the same computer, one after the other.
+Directly sharing a Scribus document will sometimes work for some documents or parts of a document, but there is no guarantee that it will work for a whole document or for any specific document.  
+There are workarounds that can let you share your work in well defined cases (see below for more details), but it won't in the general case.
 
- 
+Before we look further on ways to share the document, it's important to know what "collecting for output" does:
 
-### Spreading
+- The "biggest" task is to make sure that the document does not use absolute paths (in the form "D:\Documents\" or "/Volume/Work") to reference the images linked from your document. This is achieved by copying all images into the target directory.
+- On top of this, it can also copy the font files and color profiles to ensure that the same resources are used.
 
+The are two types of collaborations on a Scribus document:
+
+- Each person does a specific task and then hands over the document to the next one for further procssing.
+- Multiple persons edit the same document at different times.
+
+In both cases the most straight forward way of sharing the document is to "collect for output" before handing over to the other person or putting it in the shared directory.
+
+In the second case, where the document is shared "back and forth", this can become inpractical. If you are in control of all computers from where the document is accessed, you can of course try to make all the computers "look the same":
+
+- All external images are linked to directories that have the exact same full path (starting from the  `C:` in Windows or the `/` on Linux or Mac)
+  - This should be possible if all computers use the same operating system.
+  - It's not possible to share a document between Windows and Mac or Linux.
+  - It's possible but not trivial to share a directory between Mac and Linux.
+- All computer should have the exact same fonts (same files, not only same names!) and all needed color profiles.
+
+For "advanced" / corporate cases it should be possisble to create tools that modifiy the sla to make sure that the Scribus document can be used by multiple. This can be done from inside of Scribus with scripts or outside of it with by "cleaning up" the `.sla` file.
+
+### Splitting the document in sections
 
 laser hat dir bereits eine gute anleitung gegeben. sie wird dein problem lösen, wenn ihr nicht gleichzeitig arbeiten musst / wollt.
 
